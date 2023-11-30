@@ -1,0 +1,634 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+.header-container{
+    width: 100%;
+    background-color: lightblue;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.container-header{
+    width: 30%;
+    height: 5%;
+}
+
+.container-image-logo{
+    margin-right: 100px 0px 0px 50px;
+    height: 250px;
+}
+
+@media screen and (max-width:480px) {
+    .header-container{
+       width: 100%;
+       background-color: rgb(0, 0, 0);
+       height: 100px;
+       display: flex;
+       flex-direction: row;
+       padding: 1%;
+    } 
+    
+    .container-image-logo{
+        margin-right: 1px 0px 0px 1px;
+       height: 80px;
+    }
+
+}
+.nav-container{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.nav-container,a{
+    margin-left: 5%;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.nav-container,a:hover{
+    color: red;    
+    text-decoration: underline;
+}
+
+.nav-container,a:active{
+    color: red;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 480px) {
+    .nav-container{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bolder;
+    }
+    
+    .nav-container,a{
+        margin-left: 5%;
+        font-size: 90%;
+        text-decoration: none;
+        color: red;
+    }
+    .nav-container,a:hover{
+        color: yellow;    
+        text-decoration: underline;
+    }
+    
+    .nav-container,a:active{
+        color: yellow;
+        text-decoration: none;
+    
+    }
+}
+
+.h1-titulo-principal{
+    font-size: 90px; 
+    font-family: Young Serif; 
+    color: black;
+    text-align: center; 
+
+}
+
+.container-titulo{
+    padding: 2%;
+}
+
+#container-image-id{
+    display: flex;
+}
+
+.image-izquierda{
+    width: 350px;
+    height: 400px;
+    margin-left: 250px;
+}
+
+.container-image{
+    padding: 3%;
+}
+
+.image-derecha{
+    width: 350px;
+    height: 400px;
+    margin-left: 250px;
+}
+
+@media screen and ( max-width: 480px){
+
+    .container-caja{
+        background-color: black;
+        padding: 3%;
+    }
+
+    .h1-titulo-principal{
+        font-size: 85px; 
+        font-family: 'Anton', sans-serif;
+        color: orange;
+        text-align: center;
+    }
+
+    .container-image-id{
+        display: flex;
+    }
+    
+    .image-izquierda{
+        width: 200px;
+        height: 350px;
+        margin-left: 10px;
+        padding: 0%;
+    }
+    
+    .container-image{
+        padding: 3%;
+    }
+    
+    .image-derecha{
+        width: 200px;
+        height: 355px;
+        margin-left: 40px;
+        padding: 1%;
+    }
+    
+}
+
+.container-titulo2{
+    font-size: 90px;
+    font-family: 'Kanit', sans-serif; 
+    color: black;
+    text-align: center;
+}
+
+.columna{
+    background-color: azure;
+    margin-left: 3%;
+    text-align: left;
+    text-decoration: none;
+    padding: 3px;;
+}
+
+#parrafo-id{ 
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    width: 600px;
+}
+
+
+.container-image2{
+    display: flex;
+    padding: 0%
+}
+
+.imagen2{    
+    width: 500px;
+    margin-left: 800px;
+    margin: -550px 0px 0px 839px;
+}
+
+@media all and (max-width: 480px) {
+    .container-titulo2{
+        font-size: 60px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        color: black;
+        text-align: center;
+        background-color: green;
+    }
+    
+    .columna{
+        background-color: green;
+        margin-left: 0%;
+        text-align: left;
+        text-decoration: none;
+        padding: 0px;;
+    }
+    
+    #parrafo-id{ 
+        color: black;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 25px;
+        width: 490px;
+    }
+    
+}
+
+#titulosvideos-id{
+    color: #191EE0;
+    display: flex;
+}
+
+.titulo-video{
+   
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    width: 900px;
+    padding: 5%;
+}
+
+#videos-id{
+    display: flex;
+}
+
+.videos-container{
+    width: 800%;
+    padding: 1%;
+    margin-left: 6%;
+}
+@media all and (max-width: 480px) {
+    #titulosvideos-id{
+        color: #2ff810;
+        display: flex;
+        background-color: #191EE0;
+    }
+    
+    .titulo-video{
+       
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2rem;
+        width: 900px;
+        padding: 0%;
+    }
+    
+
+    .videos-container{
+        width: 100%;
+        padding: 0%;
+        margin-left: -10%;
+    }
+
+}
+
+.titulo-musica{
+    text-align: center;
+    padding: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: #E5002A;
+}
+
+#musica1-id{
+    display: flex;
+}
+
+.musica-container{
+    padding: 6%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio1{
+    max-width: 100vh;
+    margin: 5.1%;
+}
+.audio1::-webkit-media-controls {
+    background-color: yellowgreen; 
+}
+  
+.audio1::-webkit-media-controls-play-button {
+    color: red; 
+}
+  
+
+.img1{
+    width: 30vh;
+}
+
+#musica2-id{
+    display: flex;
+}
+
+.musica-container{
+    padding: 6%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio2{
+    max-width: 100vh;
+    margin: 5.1%;
+}
+.audio2::-webkit-media-controls {
+    background-color: yellowgreen; 
+}
+  
+.audio2::-webkit-media-controls-play-button {
+    color: red; 
+}
+
+.img2{
+    width: 30vh;
+}
+
+#musica3-id{
+    display: flex;
+}
+
+.musica-container{
+    padding: 6%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio3{
+    max-width: 100vh;
+    margin: 5.1%;
+}
+.audio3::-webkit-media-controls {
+    background-color: yellowgreen; 
+}
+  
+.audio3::-webkit-media-controls-play-button {
+    color: red; 
+}
+
+.img3{
+    width: 30vh;
+}
+
+.img4{
+    width: 30vh;
+    height: 30vh;
+}
+
+@media all and (max-width: 480px) {
+    .titulo-musica{
+        text-align: center;
+        padding: 5%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3rem;
+        color:purple;
+        font-weight: bold;
+        background-color: aqua;
+    }
+    
+    #musica1-id{
+        display: flex;
+        background-color: aqua;
+    }
+    
+    .musica-container{
+        padding: 2%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .audio1{
+        max-width: 110%;
+        margin: 1%;
+    }
+    .audio1::-webkit-media-controls {
+        background-color: rgb(7, 7, 6); 
+    }
+      
+    .audio1::-webkit-media-controls-play-button {
+        color: red; 
+    }
+      
+    
+    .img1{
+        width: 112px;
+    }
+    
+    #musica2-id{
+        display: flex;
+        background-color: aqua;
+    }
+    
+    .musica-container{
+        padding: 2%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .audio2{
+        max-width: 50vh;
+        margin: 1%;
+    }
+    .audio2::-webkit-media-controls {
+        background-color: rgb(7, 7, 6); 
+    }
+      
+    .audio2::-webkit-media-controls-play-button {
+        color: red; 
+    }
+    
+    .img2{
+        width: 112px;
+    }
+    
+    #musica3-id{
+        display: flex;
+        background-color: aqua;
+    }
+    
+    .musica-container{
+        padding: 2%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .audio3{
+        max-width: 50vh;
+        margin: 1%;
+    }
+    .audio3::-webkit-media-controls {
+        background-color: rgb(7, 7, 6); 
+    }
+      
+    .audio3::-webkit-media-controls-play-button {
+        color: red; 
+    }
+    
+    .img3{
+        width: 112px;
+    }
+    
+    .img4{
+        width: 112px;
+        height: 112px;
+    }
+    
+}
+
+#container-button-id{
+    text-align: center;
+    height: 1%;
+}
+
+.formato-container{
+    background-color: blue;
+    width: 400px;
+    padding: 60px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.titulo-formulario{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+    color: #E5002A;
+}
+
+.texto-ingresar{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.container-nombre{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+.container-correo{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+.container-contraseña{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    background: black;
+    padding: 3%;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"] :hover{
+    border-color: black;
+    transition: .5s;
+}
+
+#container-footer-id{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.texto1{
+    text-align: right;
+    width: 100%;
+    padding: 1%;
+}
+
+.texto2{
+    width: 100%;
+    text-align: right;
+}
+
+@media all and (max-width: 480px) {
+
+    #container-button-id{
+    text-align: center;
+    height: 1%;
+}
+
+.formato-container{
+    background-color: rgba(0, 255, 51, 0.372);
+    width: 400px;
+    padding: 60px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.titulo-formulario{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+    color: #E5002A;
+}
+
+.texto-ingresar{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.container-nombre{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+.container-correo{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+.container-contraseña{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    background: black;
+    padding: 3%;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"] :hover{
+    border-color: black;
+    transition: .5s;
+}
+
+#container-footer-id{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.texto1{
+    text-align: right;
+    width: 100%;
+    padding: 1%;
+}
+
+.texto2{
+    width: 100%;
+    text-align: right;
+
+}
+}
